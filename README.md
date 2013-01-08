@@ -12,8 +12,7 @@ Run the application
 =
 - Clone the get repo `git clone https://github.com/GauravButola/Dictionary.git`
 	
-- Copy the database file to the default LocalStorage path; 
-	this shouldn't have been required but untill I figure out how to change it to a custom path, 
-	this must be done manually. `cp OfflineStorage/Databases/* ~/.local/share/Nokia/QtQmlViewer/QML/OfflineStorage/Databases/`
+- Copy the database file to the default LocalStorage path; this shouldn't have been required but untill I figure out how to change it to a custom path, 
+this must be done manually. `cp OfflineStorage/Databases/* ~/.local/share/Nokia/QtQmlViewer/QML/OfflineStorage/Databases/`
 - `cd Dictionary`
 - `qmlscene Dictionary.qml`
